@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/regular_padding">
+
+    <ImageView
+        android:id="@+id/album_cover"
+        android:layout_width="@dimen/cover_width"
+        android:layout_height="@dimen/cover_height" />
+
+    <LinearLayout
+        android:layout_width="@dimen/list_item_layoutWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_marginLeft"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/song_title"
+            style="@style/ListItem"
+            android:textSize="@dimen/title_item_textSize"
+            tools:text="So What" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            style="@style/ListItem"
+            android:textSize="@dimen/artist_item_textSize"
+            tools:text="Miles Davis" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/song_duration"
+        style="@style/ListItem"
+        android:layout_marginRight="@dimen/regular_layout_margin"
+        android:padding="@dimen/duration_item_padding"
+        android:textSize="@dimen/duration_item_TextSize"
+        tools:text="9:05" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play" />
+
+</LinearLayout>

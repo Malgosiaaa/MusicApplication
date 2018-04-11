@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MusicApplication</string>
+    <string name="header">Best albums of the 50s\' according to TIME Magazine*</string>
+    <string name="kind_of_blue">Kind of Blue, 1954\'</string>
+    <string name="here_little_richard">Here\'s Little Richard, 1957\'</string>
+    <string name="songs_for_swingin_lovers">Songs for Swingin\' Lovers, 1956</string>
+    <string name="hint">*Tap on the album name to see its content</string>
+    <string name="miles_davis">Miles Davis</string>
+    <string name="miles_s1">So What</string>
+    <string name="miles_s2">Freddie Freeloader</string>
+    <string name="miles_s3">Blue in Green</string>
+    <string name="miles_s4">All Blues</string>
+    <string name="miles_s5">Flamenco Sketches</string>
+    <string name="miles_d1">9:05</string>
+    <string name="miles_d2">9:36</string>
+    <string name="miles_d3">5:29</string>
+    <string name="miles_d4">11:34</string>
+    <string name="miles_d5">9:25</string>
+    <string name="paused">Song paused</string>
+    <string name="played">Enjoy the music!</string>
+    <string name="stopped">Song stopped</string>
+</resources>

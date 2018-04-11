@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style for header -->
+    <style name="Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:padding">@dimen/regular_padding</item>
+        <item name="android:layout_margin">@dimen/regular_layout_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/big_font</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@color/headerBackground</item>
+    </style>
+
+    <!-- Style for Albums TextViews -->
+    <style name="Albums_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:padding">@dimen/regular_padding</item>
+        <item name="android:layout_margin">@dimen/regular_layout_margin</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/medium_font</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@color/albumBackground</item>
+    </style>
+
+    <!-- Style for hint -->
+    <style name="Hint">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/regular_layout_margin</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/small_font</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Style for list item view -->
+    <style name="ListItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Style for Now Playing Song Title TextView -->
+    <style name="NowPlayingSong">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/medium_font</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style for Now Playing Artist TextView -->
+    <style name="NowPlayingArtist">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize"></item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style for Now Playing Duration TextView -->
+    <style name="NowPlayingDuration">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/now_playing_duration</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/regular_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/Header"
+        android:text="@string/header" />
+
+    <TextView
+        android:id="@+id/kind_of_blue"
+        style="@style/Albums_TextView"
+        android:text="@string/kind_of_blue" />
+
+    <TextView
+        android:id="@+id/here_little_richard"
+        style="@style/Albums_TextView"
+        android:text="@string/here_little_richard" />
+
+    <TextView
+        android:id="@+id/swingin_lovers"
+        style="@style/Albums_TextView"
+        android:text="@string/songs_for_swingin_lovers" />
+
+    <TextView
+        android:id="@+id/wee_small_hours"
+        style="@style/Albums_TextView"
+        android:text="In the Wee Small Hours, 1955'" />
+
+    <TextView
+        style="@style/Hint"
+        android:text="@string/hint" />
+
+</LinearLayout>
