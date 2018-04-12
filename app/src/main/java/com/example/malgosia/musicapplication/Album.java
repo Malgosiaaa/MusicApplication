@@ -18,7 +18,7 @@ public class Album {
      * Creation of new Album object
      */
 
-    public Album (String artistName, String songTitle, String songDuration, int imageCover) {
+    public Album(String artistName, String songTitle, String songDuration, int imageCover) {
         mArtistName = artistName;
         mSongTitle = songTitle;
         mDuration = songDuration;
@@ -28,7 +28,6 @@ public class Album {
     /**
      * Get the artist name
      */
-
     public String getArtistName() {
         return mArtistName;
     }
@@ -36,13 +35,12 @@ public class Album {
     /**
      * Get the song title
      */
-
     public String getSongTitle() {
         return mSongTitle;
     }
 
     /**
-     *  Get the song duration
+     * Get the song duration
      */
     public String getDuration() {
         return mDuration;
@@ -51,7 +49,6 @@ public class Album {
     /**
      * Get the id of image resource which is album cover
      */
-
     public int getImageCover() {
         return mImageCover;
     }

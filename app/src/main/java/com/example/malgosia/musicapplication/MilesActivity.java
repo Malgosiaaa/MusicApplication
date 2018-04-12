@@ -52,7 +52,7 @@ public class MilesActivity extends AppCompatActivity {
         });
 
         // Finds the ImageView with the BackButton
-        ImageButton backButton = findViewById(R.id.btn_back);
+        ImageButton backButton = findViewById(R.id.btn_list_back);
         // Sets OnClickListener to it and back to the MainActivity
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

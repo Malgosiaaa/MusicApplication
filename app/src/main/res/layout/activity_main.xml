@@ -29,7 +29,7 @@
     <TextView
         android:id="@+id/wee_small_hours"
         style="@style/Albums_TextView"
-        android:text="In the Wee Small Hours, 1955'" />
+        android:text="@string/wee_small_hours" />
 
     <TextView
         style="@style/Hint"

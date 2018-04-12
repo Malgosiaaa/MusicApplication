@@ -66,9 +66,15 @@ public class NowPlayingActivity extends AppCompatActivity {
         stopBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                playPauseBtn.setImageResource(R.drawable.ic_play);
-                nowPlaying = false;
-                Toast.makeText(NowPlayingActivity.this, R.string.stopped, Toast.LENGTH_SHORT).show();
+                if (nowPlaying) {
+                    playPauseBtn.setImageResource(R.drawable.ic_play);
+                    nowPlaying = false;
+                    Toast.makeText(NowPlayingActivity.this, R.string.stopped, Toast.LENGTH_SHORT).show();
+                } else {
+                    playPauseBtn.setImageResource(R.drawable.ic_play);
+                    nowPlaying = false;
+                    Toast.makeText(NowPlayingActivity.this, R.string.stopped, Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
